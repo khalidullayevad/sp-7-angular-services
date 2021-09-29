@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import {SumService} from "../sum.service";
-
+import {DateService} from "../date.service";
 
 @Component({
   selector: 'app-sum',
